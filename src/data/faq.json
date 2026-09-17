@@ -1,0 +1,4034 @@
+[
+  {
+    "id": 1,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is Generative AI?",
+    "answer": "What is Generative AI refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 2,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "How is Generative AI different from traditional AI?",
+    "answer": "How is Generative AI different from traditional AI refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 3,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is a “foundation model”?",
+    "answer": "What is a “foundation model” refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 4,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is a “large language model (LLM)”?",
+    "answer": "What is a “large language model (LLM)” refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 5,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What does “pretraining” mean in LLMs?",
+    "answer": "What does “pretraining” mean in LLMs refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 6,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What does “fine-tuning” mean?",
+    "answer": "What does “fine-tuning” mean refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 7,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is prompt engineering?",
+    "answer": "What is prompt engineering refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 8,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is “inference” in AI?",
+    "answer": "What is “inference” in AI refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 9,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What are tokens in LLMs?",
+    "answer": "What are tokens in LLMs refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 10,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is context length?",
+    "answer": "What is context length refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 11,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is temperature in generation?",
+    "answer": "What is temperature in generation refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 12,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is top-p (nucleus sampling)?",
+    "answer": "What is top-p (nucleus sampling) refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 13,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is top-k sampling?",
+    "answer": "What is top-k sampling refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 14,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is repetition penalty?",
+    "answer": "What is repetition penalty refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 15,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is hallucination in LLMs?",
+    "answer": "What is hallucination in LLMs refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 16,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "Why do LLMs hallucinate?",
+    "answer": "Why do LLMs hallucinate refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 17,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "How can we reduce hallucinations?",
+    "answer": "How can we reduce hallucinations refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 18,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is grounding?",
+    "answer": "What is grounding refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 19,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is prompt injection?",
+    "answer": "What is prompt injection refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 20,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is jailbreak prompting?",
+    "answer": "What is jailbreak prompting refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 21,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is the difference between system, developer, and user messages?",
+    "answer": "What is the difference between system, developer, and user messages refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 22,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is zero-shot prompting?",
+    "answer": "What is zero-shot prompting refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 23,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is one-shot prompting?",
+    "answer": "What is one-shot prompting refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 24,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is few-shot prompting?",
+    "answer": "What is few-shot prompting refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 25,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is chain-of-thought reasoning?",
+    "answer": "What is chain-of-thought reasoning refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 26,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "Should we store chain-of-thought outputs?",
+    "answer": "Should we store chain-of-thought outputs refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 27,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is “tool use” in LLMs?",
+    "answer": "What is “tool use” in LLMs refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 28,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is function calling?",
+    "answer": "What is function calling refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 29,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is structured output?",
+    "answer": "What is structured output refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 30,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is a safety filter?",
+    "answer": "What is a safety filter refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 31,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is responsible AI?",
+    "answer": "What is responsible AI refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 32,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is bias in AI models?",
+    "answer": "What is bias in AI models refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 33,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is model drift?",
+    "answer": "What is model drift refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 34,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is data drift?",
+    "answer": "What is data drift refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 35,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is evaluation in AI systems?",
+    "answer": "What is evaluation in AI systems refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 36,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is an AI benchmark?",
+    "answer": "What is an AI benchmark refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 37,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is latency in LLM applications?",
+    "answer": "What is latency in LLM applications refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 38,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is throughput in LLM applications?",
+    "answer": "What is throughput in LLM applications refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 39,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is cost per token?",
+    "answer": "What is cost per token refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 40,
+    "category": "GenAI Foundations",
+    "intent": "GENAI_FOUNDATIONS",
+    "question": "What is an embedding?",
+    "answer": "What is an embedding refers to a core concept in generative AI describing how modern AI models generate, interpret, or control outputs based on learned patterns from large datasets.",
+    "keywords": null
+  },
+  {
+    "id": 41,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is Agentic AI?",
+    "answer": "What is Agentic AI describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 42,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is an AI agent?",
+    "answer": "What is an AI agent describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 43,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "How is an agent different from a chatbot?",
+    "answer": "How is an agent different from a chatbot describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 44,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is “planning” in an agent?",
+    "answer": "What is “planning” in an agent describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 45,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is “reasoning + acting” (ReAct)?",
+    "answer": "What is “reasoning + acting” (ReAct) describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 46,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is a tool-augmented agent?",
+    "answer": "What is a tool-augmented agent describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 47,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is memory in an agent?",
+    "answer": "What is memory in an agent describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 48,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is short-term vs long-term memory for agents?",
+    "answer": "What is short-term vs long-term memory for agents describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 49,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is a scratchpad?",
+    "answer": "What is a scratchpad describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 50,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is a “policy” in agent behavior?",
+    "answer": "What is a “policy” in agent behavior describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 51,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is multi-agent collaboration?",
+    "answer": "What is multi-agent collaboration describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 52,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is role-based agent architecture?",
+    "answer": "What is role-based agent architecture describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 53,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is an orchestrator agent?",
+    "answer": "What is an orchestrator agent describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 54,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is an executor agent?",
+    "answer": "What is an executor agent describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 55,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is a critic/reviewer agent?",
+    "answer": "What is a critic/reviewer agent describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 56,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is a guardrail agent?",
+    "answer": "What is a guardrail agent describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 57,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is a retrieval agent?",
+    "answer": "What is a retrieval agent describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 58,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is an agent loop?",
+    "answer": "What is an agent loop describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 59,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What are stop conditions for an agent?",
+    "answer": "What are stop conditions for an agent describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 60,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "How do agents avoid infinite loops?",
+    "answer": "How do agents avoid infinite loops describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 61,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is task decomposition?",
+    "answer": "What is task decomposition describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 62,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is tool selection?",
+    "answer": "What is tool selection describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 63,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is tool routing?",
+    "answer": "What is tool routing describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 64,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is tool error handling in agents?",
+    "answer": "What is tool error handling in agents describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 65,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is self-reflection in agents?",
+    "answer": "What is self-reflection in agents describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 66,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is self-consistency?",
+    "answer": "What is self-consistency describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 67,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is chain-of-verification?",
+    "answer": "What is chain-of-verification describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 68,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is goal alignment in agents?",
+    "answer": "What is goal alignment in agents describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 69,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is autonomy level?",
+    "answer": "What is autonomy level describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 70,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is human-in-the-loop?",
+    "answer": "What is human-in-the-loop describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 71,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is human-on-the-loop?",
+    "answer": "What is human-on-the-loop describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 72,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is human-out-of-the-loop?",
+    "answer": "What is human-out-of-the-loop describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 73,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is “agentic workflow” vs “automation workflow”?",
+    "answer": "What is “agentic workflow” vs “automation workflow” describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 74,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is the difference between an agent and an RPA bot?",
+    "answer": "What is the difference between an agent and an RPA bot describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 75,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is “delegation” in agent systems?",
+    "answer": "What is “delegation” in agent systems describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 76,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is “execution sandboxing”?",
+    "answer": "What is “execution sandboxing” describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 77,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is “least privilege” for tool access?",
+    "answer": "What is “least privilege” for tool access describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 78,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is “capability bounding”?",
+    "answer": "What is “capability bounding” describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 79,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is “action validation”?",
+    "answer": "What is “action validation” describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 80,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is “tool confirmation”?",
+    "answer": "What is “tool confirmation” describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 81,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is “agent trace”?",
+    "answer": "What is “agent trace” describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 82,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What should be logged in an agent system?",
+    "answer": "What should be logged in an agent system describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 83,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is a runbook for agents?",
+    "answer": "What is a runbook for agents describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 84,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What are agent failure modes?",
+    "answer": "What are agent failure modes describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 85,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What are common agent risks?",
+    "answer": "What are common agent risks describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 86,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "How do agents handle ambiguous tasks?",
+    "answer": "How do agents handle ambiguous tasks describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 87,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "How do agents handle conflicting instructions?",
+    "answer": "How do agents handle conflicting instructions describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 88,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is agent evaluation?",
+    "answer": "What is agent evaluation describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 89,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is success criteria for an agent?",
+    "answer": "What is success criteria for an agent describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 90,
+    "category": "Agentic AI",
+    "intent": "AGENTIC_AI",
+    "question": "What is agent monitoring?",
+    "answer": "What is agent monitoring describes an agentic AI concept where systems can reason, make decisions, and take actions autonomously within defined constraints and guardrails.",
+    "keywords": null
+  },
+  {
+    "id": 91,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is NLP?",
+    "answer": "What is NLP is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 92,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is NLU?",
+    "answer": "What is NLU is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 93,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is NLG?",
+    "answer": "What is NLG is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 94,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is a transformer?",
+    "answer": "What is a transformer is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 95,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is attention?",
+    "answer": "What is attention is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 96,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is self-attention?",
+    "answer": "What is self-attention is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 97,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is a parameter in a model?",
+    "answer": "What is a parameter in a model is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 98,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is a checkpoint?",
+    "answer": "What is a checkpoint is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 99,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is model quantization?",
+    "answer": "What is model quantization is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 100,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is LoRA?",
+    "answer": "What is LoRA is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 101,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is QLoRA?",
+    "answer": "What is QLoRA is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 102,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is instruction tuning?",
+    "answer": "What is instruction tuning is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 103,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is RLHF?",
+    "answer": "What is RLHF is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 104,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is RLAIF?",
+    "answer": "What is RLAIF is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 105,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is DPO?",
+    "answer": "What is DPO is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 106,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is SFT?",
+    "answer": "What is SFT is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 107,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is a dataset split (train/val/test)?",
+    "answer": "What is a dataset split (train/val/test) is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 108,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is supervised learning?",
+    "answer": "What is supervised learning is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 109,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is unsupervised learning?",
+    "answer": "What is unsupervised learning is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 110,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is reinforcement learning?",
+    "answer": "What is reinforcement learning is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 111,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is a vector database?",
+    "answer": "What is a vector database is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 112,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is cosine similarity?",
+    "answer": "What is cosine similarity is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 113,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is semantic search?",
+    "answer": "What is semantic search is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 114,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is keyword search vs semantic search?",
+    "answer": "What is keyword search vs semantic search is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 115,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is tokenization?",
+    "answer": "What is tokenization is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 116,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is a tokenizer?",
+    "answer": "What is a tokenizer is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 117,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is perplexity?",
+    "answer": "What is perplexity is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 118,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is beam search?",
+    "answer": "What is beam search is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 119,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is reranking?",
+    "answer": "What is reranking is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 120,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is a cross-encoder reranker?",
+    "answer": "What is a cross-encoder reranker is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 121,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is chunking?",
+    "answer": "What is chunking is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 122,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is overlap in chunking?",
+    "answer": "What is overlap in chunking is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 123,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is metadata filtering?",
+    "answer": "What is metadata filtering is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 124,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is a knowledge base?",
+    "answer": "What is a knowledge base is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 125,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is enterprise search?",
+    "answer": "What is enterprise search is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 126,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is grounding data?",
+    "answer": "What is grounding data is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 127,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is “prompt template”?",
+    "answer": "What is “prompt template” is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 128,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is “prompt chaining”?",
+    "answer": "What is “prompt chaining” is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 129,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is prompt routing?",
+    "answer": "What is prompt routing is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 130,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is LLMOps?",
+    "answer": "What is LLMOps is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 131,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is MLOps vs LLMOps?",
+    "answer": "What is MLOps vs LLMOps is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 132,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is observability?",
+    "answer": "What is observability is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 133,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is tracing?",
+    "answer": "What is tracing is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 134,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is red teaming?",
+    "answer": "What is red teaming is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 135,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is content moderation?",
+    "answer": "What is content moderation is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 136,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is PII?",
+    "answer": "What is PII is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 137,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is PHI?",
+    "answer": "What is PHI is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 138,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is data residency?",
+    "answer": "What is data residency is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 139,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is model governance?",
+    "answer": "What is model governance is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 140,
+    "category": "AI Vocabulary",
+    "intent": "AI_VOCAB",
+    "question": "What is a model card?",
+    "answer": "What is a model card is a commonly used AI term that defines a specific mechanism, technique, or component used in modern machine learning and generative AI systems.",
+    "keywords": null
+  },
+  {
+    "id": 141,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an AI enablement process?",
+    "answer": "What is an AI enablement process is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 142,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an AI intake form?",
+    "answer": "What is an AI intake form is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 143,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What information should be in an AI use case proposal?",
+    "answer": "What information should be in an AI use case proposal is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 144,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a use case prioritization framework?",
+    "answer": "What is a use case prioritization framework is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 145,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "How do we estimate AI ROI?",
+    "answer": "How do we estimate AI ROI is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 146,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is value vs feasibility scoring?",
+    "answer": "What is value vs feasibility scoring is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 147,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a PoC in AI?",
+    "answer": "What is a PoC in AI is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 148,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an MVP in AI?",
+    "answer": "What is an MVP in AI is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 149,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is pilot vs production release?",
+    "answer": "What is pilot vs production release is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 150,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What process artifacts are needed to move to production?",
+    "answer": "What process artifacts are needed to move to production is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 151,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a data readiness assessment?",
+    "answer": "What is a data readiness assessment is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 152,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a model readiness assessment?",
+    "answer": "What is a model readiness assessment is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 153,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is risk assessment for AI?",
+    "answer": "What is risk assessment for AI is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 154,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a Responsible AI checklist?",
+    "answer": "What is a Responsible AI checklist is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 155,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a security threat model for AI?",
+    "answer": "What is a security threat model for AI is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 156,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an AI architecture document?",
+    "answer": "What is an AI architecture document is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 157,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a prompt library document?",
+    "answer": "What is a prompt library document is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 158,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a knowledge base curation document?",
+    "answer": "What is a knowledge base curation document is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 159,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an agent workflow design document?",
+    "answer": "What is an agent workflow design document is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 160,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What should be in an AI runbook?",
+    "answer": "What should be in an AI runbook is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 161,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an AI support model (L1/L2/L3)?",
+    "answer": "What is an AI support model (L1/L2/L3) is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 162,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is incident management for AI?",
+    "answer": "What is incident management for AI is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 163,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is rollback strategy for AI releases?",
+    "answer": "What is rollback strategy for AI releases is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 164,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an evaluation plan document?",
+    "answer": "What is an evaluation plan document is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 165,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a test plan for AI apps?",
+    "answer": "What is a test plan for AI apps is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 166,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is UAT for AI?",
+    "answer": "What is UAT for AI is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 167,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a model selection document?",
+    "answer": "What is a model selection document is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 168,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a vendor evaluation checklist?",
+    "answer": "What is a vendor evaluation checklist is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 169,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is change management for AI rollouts?",
+    "answer": "What is change management for AI rollouts is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 170,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is user training for AI tools?",
+    "answer": "What is user training for AI tools is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 171,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an AI adoption plan?",
+    "answer": "What is an AI adoption plan is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 172,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a communication plan for AI launches?",
+    "answer": "What is a communication plan for AI launches is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 173,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an AI center of excellence (CoE)?",
+    "answer": "What is an AI center of excellence (CoE) is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 174,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What roles exist in an AI CoE?",
+    "answer": "What roles exist in an AI CoE is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 175,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is the RACI for AI projects?",
+    "answer": "What is the RACI for AI projects is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 176,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is the approval workflow for AI deployment?",
+    "answer": "What is the approval workflow for AI deployment is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 177,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is documentation standard for AI solutions?",
+    "answer": "What is documentation standard for AI solutions is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 178,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What are minimum audit logs required?",
+    "answer": "What are minimum audit logs required is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 179,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "How do we document prompt changes?",
+    "answer": "How do we document prompt changes is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 180,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "How do we document KB updates?",
+    "answer": "How do we document KB updates is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 181,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is model versioning best practice?",
+    "answer": "What is model versioning best practice is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 182,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "How do we do prompt versioning?",
+    "answer": "How do we do prompt versioning is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 183,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "How do we do dataset versioning?",
+    "answer": "How do we do dataset versioning is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 184,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is canary release for AI systems?",
+    "answer": "What is canary release for AI systems is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 185,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is A/B testing for prompts?",
+    "answer": "What is A/B testing for prompts is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 186,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is A/B testing for retrieval?",
+    "answer": "What is A/B testing for retrieval is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 187,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is rollback for prompt regressions?",
+    "answer": "What is rollback for prompt regressions is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 188,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an AI governance board?",
+    "answer": "What is an AI governance board is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 189,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an AI policy document?",
+    "answer": "What is an AI policy document is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 190,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an acceptable use policy for GenAI?",
+    "answer": "What is an acceptable use policy for GenAI is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 191,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is an AI risk register?",
+    "answer": "What is an AI risk register is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 192,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a compliance checklist for GenAI?",
+    "answer": "What is a compliance checklist for GenAI is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 193,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is data classification policy in AI?",
+    "answer": "What is data classification policy in AI is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 194,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is model access control policy?",
+    "answer": "What is model access control policy is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 195,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is third-party AI usage policy?",
+    "answer": "What is third-party AI usage policy is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 196,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is shadow AI?",
+    "answer": "What is shadow AI is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 197,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "How do we prevent shadow AI?",
+    "answer": "How do we prevent shadow AI is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 198,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is AI literacy training?",
+    "answer": "What is AI literacy training is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 199,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is responsible prompting guidance?",
+    "answer": "What is responsible prompting guidance is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 200,
+    "category": "Enterprise Enablement Process",
+    "intent": "AI_PROCESS",
+    "question": "What is a secure prompt guideline?",
+    "answer": "What is a secure prompt guideline is part of an enterprise AI enablement process used to ensure responsible, secure, and scalable adoption of AI across an organization.",
+    "keywords": null
+  },
+  {
+    "id": 201,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is Visual Studio?",
+    "answer": "What is Visual Studio relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 202,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is the difference between Visual Studio and VS Code?",
+    "answer": "What is the difference between Visual Studio and VS Code relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 203,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "Which Visual Studio edition should I install (Community/Pro/Enterprise)?",
+    "answer": "Which Visual Studio edition should I install (Community/Pro/Enterprise) relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 204,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What are the hardware requirements for Visual Studio?",
+    "answer": "What are the hardware requirements for Visual Studio relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 205,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What are the OS requirements for Visual Studio?",
+    "answer": "What are the OS requirements for Visual Studio relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 206,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "Do I need admin rights to install Visual Studio?",
+    "answer": "Do I need admin rights to install Visual Studio relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 207,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I download Visual Studio safely?",
+    "answer": "How do I download Visual Studio safely relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 208,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I install Visual Studio using the installer?",
+    "answer": "How do I install Visual Studio using the installer relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 209,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I install Visual Studio offline?",
+    "answer": "How do I install Visual Studio offline relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 210,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is a Visual Studio workload?",
+    "answer": "What is a Visual Studio workload relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 211,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "Which workload is needed for Python development?",
+    "answer": "Which workload is needed for Python development relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 212,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "Which workload is needed for .NET development?",
+    "answer": "Which workload is needed for .NET development relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 213,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "Which workload is needed for C++ development?",
+    "answer": "Which workload is needed for C++ development relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 214,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "Which workload is needed for Azure development?",
+    "answer": "Which workload is needed for Azure development relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 215,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "Which workload is best for AI/ML development?",
+    "answer": "Which workload is best for AI/ML development relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 216,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I install the “Data Science and Analytical Applications” workload?",
+    "answer": "How do I install the “Data Science and Analytical Applications” workload relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 217,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I add workloads after installation?",
+    "answer": "How do I add workloads after installation relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 218,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I repair a Visual Studio installation?",
+    "answer": "How do I repair a Visual Studio installation relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 219,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I uninstall Visual Studio completely?",
+    "answer": "How do I uninstall Visual Studio completely relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 220,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "Why does Visual Studio installation fail?",
+    "answer": "Why does Visual Studio installation fail relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 221,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I fix “setup engine” errors?",
+    "answer": "How do I fix “setup engine” errors relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 222,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I fix missing Windows components during install?",
+    "answer": "How do I fix missing Windows components during install relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 223,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "Do I need .NET SDK installed separately?",
+    "answer": "Do I need .NET SDK installed separately relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 224,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is the difference between .NET runtime and SDK?",
+    "answer": "What is the difference between .NET runtime and SDK relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 225,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "Which Python version should I install for AI development?",
+    "answer": "Which Python version should I install for AI development relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 226,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I install Python on Windows?",
+    "answer": "How do I install Python on Windows relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 227,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I set Python in PATH?",
+    "answer": "How do I set Python in PATH relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 228,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is pip?",
+    "answer": "What is pip relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 229,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I upgrade pip?",
+    "answer": "How do I upgrade pip relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 230,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is venv?",
+    "answer": "What is venv relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 231,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I create a virtual environment in Windows?",
+    "answer": "How do I create a virtual environment in Windows relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 232,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is conda and when should I use it?",
+    "answer": "What is conda and when should I use it relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 233,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is Miniconda vs Anaconda?",
+    "answer": "What is Miniconda vs Anaconda relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 234,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is Git and why do I need it?",
+    "answer": "What is Git and why do I need it relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 235,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I install Git on Windows?",
+    "answer": "How do I install Git on Windows relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 236,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I generate an SSH key for Git?",
+    "answer": "How do I generate an SSH key for Git relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 237,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is GitHub Desktop vs Git CLI?",
+    "answer": "What is GitHub Desktop vs Git CLI relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 238,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is WSL and do I need it for AI?",
+    "answer": "What is WSL and do I need it for AI relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 239,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I install WSL on Windows?",
+    "answer": "How do I install WSL on Windows relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 240,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is Docker and do I need it?",
+    "answer": "What is Docker and do I need it relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 241,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I install Docker Desktop?",
+    "answer": "How do I install Docker Desktop relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 242,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is NVIDIA CUDA?",
+    "answer": "What is NVIDIA CUDA relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 243,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "Do I need CUDA for AI development?",
+    "answer": "Do I need CUDA for AI development relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 244,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I check if my GPU supports CUDA?",
+    "answer": "How do I check if my GPU supports CUDA relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 245,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I install CUDA drivers?",
+    "answer": "How do I install CUDA drivers relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 246,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is cuDNN?",
+    "answer": "What is cuDNN relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 247,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "Do I need Visual C++ Redistributables?",
+    "answer": "Do I need Visual C++ Redistributables relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 248,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is MSBuild?",
+    "answer": "What is MSBuild relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 249,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is NuGet?",
+    "answer": "What is NuGet relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 250,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is Node.js and why might I need it?",
+    "answer": "What is Node.js and why might I need it relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 251,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I install Node.js?",
+    "answer": "How do I install Node.js relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 252,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "What is npm vs yarn?",
+    "answer": "What is npm vs yarn relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 253,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I configure proxies for Visual Studio installer?",
+    "answer": "How do I configure proxies for Visual Studio installer relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 254,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I install Visual Studio behind a corporate firewall?",
+    "answer": "How do I install Visual Studio behind a corporate firewall relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 255,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I enable certificate trust for package installs?",
+    "answer": "How do I enable certificate trust for package installs relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 256,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I set up VS for Python debugging?",
+    "answer": "How do I set up VS for Python debugging relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 257,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I integrate Jupyter notebooks with Visual Studio?",
+    "answer": "How do I integrate Jupyter notebooks with Visual Studio relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 258,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I install Jupyter and kernels?",
+    "answer": "How do I install Jupyter and kernels relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 259,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I configure linting and formatting?",
+    "answer": "How do I configure linting and formatting relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 260,
+    "category": "Visual Studio & Prerequisites",
+    "intent": "DEVTOOLS_VS",
+    "question": "How do I set up Git integration inside Visual Studio?",
+    "answer": "How do I set up Git integration inside Visual Studio relates to setting up development tooling and prerequisites required for AI, data science, or application development using Visual Studio or related tools.",
+    "keywords": null
+  },
+  {
+    "id": 261,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What are examples of LLMs used in enterprises?",
+    "answer": "What are examples of LLMs used in enterprises explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 262,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is the difference between GPT-style and BERT-style models?",
+    "answer": "What is the difference between GPT-style and BERT-style models explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 263,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What are encoder-only models used for?",
+    "answer": "What are encoder-only models used for explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 264,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What are decoder-only models used for?",
+    "answer": "What are decoder-only models used for explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 265,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What are encoder-decoder models used for?",
+    "answer": "What are encoder-decoder models used for explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 266,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a small language model (SLM)?",
+    "answer": "What is a small language model (SLM) explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 267,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "When should we use an SLM instead of an LLM?",
+    "answer": "When should we use an SLM instead of an LLM explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 268,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a multimodal model?",
+    "answer": "What is a multimodal model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 269,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a vision-language model?",
+    "answer": "What is a vision-language model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 270,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a speech-to-text model?",
+    "answer": "What is a speech-to-text model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 271,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is text-to-speech?",
+    "answer": "What is text-to-speech explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 272,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is text-to-image generation?",
+    "answer": "What is text-to-image generation explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 273,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is an image embedding model?",
+    "answer": "What is an image embedding model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 274,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a code generation model?",
+    "answer": "What is a code generation model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 275,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a function calling capable model?",
+    "answer": "What is a function calling capable model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 276,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is the difference between chat model and completion model?",
+    "answer": "What is the difference between chat model and completion model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 277,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is an instruction-following model?",
+    "answer": "What is an instruction-following model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 278,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What does “model alignment” mean?",
+    "answer": "What does “model alignment” mean explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 279,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What model should we use for summarization?",
+    "answer": "What model should we use for summarization explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 280,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What model should we use for classification?",
+    "answer": "What model should we use for classification explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 281,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What model should we use for translation?",
+    "answer": "What model should we use for translation explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 282,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What model should we use for extraction?",
+    "answer": "What model should we use for extraction explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 283,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What model should we use for code assistance?",
+    "answer": "What model should we use for code assistance explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 284,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What model should we use for document Q&A?",
+    "answer": "What model should we use for document Q&A explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 285,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What model should we use for conversation?",
+    "answer": "What model should we use for conversation explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 286,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What model should we use for customer support?",
+    "answer": "What model should we use for customer support explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 287,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What model should we use for agentic automation?",
+    "answer": "What model should we use for agentic automation explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 288,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is model distillation?",
+    "answer": "What is model distillation explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 289,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is model pruning?",
+    "answer": "What is model pruning explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 290,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is model quantization and why does it matter?",
+    "answer": "What is model quantization and why does it matter explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 291,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a model license and why does it matter?",
+    "answer": "What is a model license and why does it matter explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 292,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is the difference between open-source and proprietary models?",
+    "answer": "What is the difference between open-source and proprietary models explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 293,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What are the risks of using open-source models?",
+    "answer": "What are the risks of using open-source models explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 294,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What are the benefits of using open-source models?",
+    "answer": "What are the benefits of using open-source models explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 295,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is model serving?",
+    "answer": "What is model serving explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 296,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is an inference endpoint?",
+    "answer": "What is an inference endpoint explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 297,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is batching in inference?",
+    "answer": "What is batching in inference explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 298,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is streaming output?",
+    "answer": "What is streaming output explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 299,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is response caching?",
+    "answer": "What is response caching explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 300,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is prompt caching?",
+    "answer": "What is prompt caching explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 301,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "How do we compare models fairly?",
+    "answer": "How do we compare models fairly explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 302,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a model eval harness?",
+    "answer": "What is a model eval harness explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 303,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is perplexity and does it matter for chat?",
+    "answer": "What is perplexity and does it matter for chat explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 304,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is MMLU and what does it measure?",
+    "answer": "What is MMLU and what does it measure explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 305,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What are domain-specific models?",
+    "answer": "What are domain-specific models explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 306,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a medical domain model?",
+    "answer": "What is a medical domain model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 307,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a finance domain model?",
+    "answer": "What is a finance domain model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 308,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a code model?",
+    "answer": "What is a code model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 309,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a multilingual model?",
+    "answer": "What is a multilingual model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 310,
+    "category": "Models & Selection",
+    "intent": "MODEL_SELECTION",
+    "question": "What is a safety-aligned model?",
+    "answer": "What is a safety-aligned model explains how different AI or language models are selected, evaluated, or used for specific tasks such as summarization, coding, or reasoning.",
+    "keywords": null
+  },
+  {
+    "id": 311,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is RAG?",
+    "answer": "What is RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 312,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "Why use RAG instead of fine-tuning?",
+    "answer": "Why use RAG instead of fine-tuning relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 313,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What problems does RAG solve?",
+    "answer": "What problems does RAG solve relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 314,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What are the main components of a RAG system?",
+    "answer": "What are the main components of a RAG system relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 315,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is ingestion in RAG?",
+    "answer": "What is ingestion in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 316,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is document parsing?",
+    "answer": "What is document parsing relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 317,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is OCR and when do we need it?",
+    "answer": "What is OCR and when do we need it relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 318,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is chunking and why is it critical?",
+    "answer": "What is chunking and why is it critical relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 319,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What chunk size should we use?",
+    "answer": "What chunk size should we use relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 320,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we choose chunk overlap?",
+    "answer": "How do we choose chunk overlap relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 321,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is a semantic embedding?",
+    "answer": "What is a semantic embedding relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 322,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do embeddings work in retrieval?",
+    "answer": "How do embeddings work in retrieval relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 323,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What embedding model should we use?",
+    "answer": "What embedding model should we use relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 324,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is a vector index?",
+    "answer": "What is a vector index relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 325,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is HNSW?",
+    "answer": "What is HNSW relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 326,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is approximate nearest neighbor search?",
+    "answer": "What is approximate nearest neighbor search relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 327,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is hybrid search?",
+    "answer": "What is hybrid search relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 328,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is BM25?",
+    "answer": "What is BM25 relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 329,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is reranking in RAG?",
+    "answer": "What is reranking in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 330,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "When should we use a reranker?",
+    "answer": "When should we use a reranker relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 331,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is metadata filtering in RAG?",
+    "answer": "What is metadata filtering in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 332,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we handle access control in RAG?",
+    "answer": "How do we handle access control in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 333,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we prevent data leakage in RAG?",
+    "answer": "How do we prevent data leakage in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 334,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is document-level vs chunk-level retrieval?",
+    "answer": "What is document-level vs chunk-level retrieval relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 335,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is citation generation in RAG?",
+    "answer": "What is citation generation in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 336,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we generate grounded answers with citations?",
+    "answer": "How do we generate grounded answers with citations relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 337,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we handle conflicting sources in RAG?",
+    "answer": "How do we handle conflicting sources in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 338,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we handle outdated documents in RAG?",
+    "answer": "How do we handle outdated documents in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 339,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is freshness strategy in RAG?",
+    "answer": "What is freshness strategy in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 340,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is incremental indexing?",
+    "answer": "What is incremental indexing relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 341,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we remove documents from a vector store?",
+    "answer": "How do we remove documents from a vector store relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 342,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we deal with duplicate documents?",
+    "answer": "How do we deal with duplicate documents relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 343,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is query rewriting?",
+    "answer": "What is query rewriting relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 344,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is multi-query retrieval?",
+    "answer": "What is multi-query retrieval relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 345,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is self-query retrieval?",
+    "answer": "What is self-query retrieval relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 346,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is conversational RAG?",
+    "answer": "What is conversational RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 347,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we add chat history into retrieval safely?",
+    "answer": "How do we add chat history into retrieval safely relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 348,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is context window management in RAG?",
+    "answer": "What is context window management in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 349,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is context stuffing and why is it bad?",
+    "answer": "What is context stuffing and why is it bad relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 350,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we measure RAG quality?",
+    "answer": "How do we measure RAG quality relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 351,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What are RAG evaluation metrics?",
+    "answer": "What are RAG evaluation metrics relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 352,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is retrieval precision/recall?",
+    "answer": "What is retrieval precision/recall relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 353,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we test retrieval coverage?",
+    "answer": "How do we test retrieval coverage relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 354,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is answer faithfulness?",
+    "answer": "What is answer faithfulness relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 355,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is groundedness score?",
+    "answer": "What is groundedness score relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 356,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is context relevance?",
+    "answer": "What is context relevance relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 357,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is chunk relevance?",
+    "answer": "What is chunk relevance relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 358,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is hallucination rate in RAG?",
+    "answer": "What is hallucination rate in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 359,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we design RAG prompts?",
+    "answer": "How do we design RAG prompts relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 360,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is a RAG prompt template?",
+    "answer": "What is a RAG prompt template relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 361,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we handle tables in RAG?",
+    "answer": "How do we handle tables in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 362,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we handle PDFs in RAG?",
+    "answer": "How do we handle PDFs in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 363,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we handle images in RAG?",
+    "answer": "How do we handle images in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 364,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we handle code documents in RAG?",
+    "answer": "How do we handle code documents in RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 365,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is structured RAG?",
+    "answer": "What is structured RAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 366,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is GraphRAG?",
+    "answer": "What is GraphRAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 367,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "When should we use GraphRAG?",
+    "answer": "When should we use GraphRAG relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 368,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is knowledge graph vs vector DB?",
+    "answer": "What is knowledge graph vs vector DB relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 369,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "How do we combine RAG with tools?",
+    "answer": "How do we combine RAG with tools relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 370,
+    "category": "RAG",
+    "intent": "RAG",
+    "question": "What is “agentic RAG”?",
+    "answer": "What is “agentic RAG” relates to Retrieval-Augmented Generation, a pattern where AI models combine enterprise knowledge retrieval with generative responses.",
+    "keywords": null
+  },
+  {
+    "id": 371,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is an API endpoint for an LLM?",
+    "answer": "What is an API endpoint for an LLM addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 372,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is rate limiting?",
+    "answer": "What is rate limiting addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 373,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is throttling?",
+    "answer": "What is throttling addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 374,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is retry with backoff?",
+    "answer": "What is retry with backoff addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 375,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is idempotency and why does it matter?",
+    "answer": "What is idempotency and why does it matter addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 376,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is secret management?",
+    "answer": "What is secret management addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 377,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is key vault?",
+    "answer": "What is key vault addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 378,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is environment variable configuration?",
+    "answer": "What is environment variable configuration addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 379,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is CI/CD for AI apps?",
+    "answer": "What is CI/CD for AI apps addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 380,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "How do we deploy an AI app to production?",
+    "answer": "How do we deploy an AI app to production addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 381,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is a staging environment?",
+    "answer": "What is a staging environment addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 382,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is feature flagging for prompts?",
+    "answer": "What is feature flagging for prompts addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 383,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is config-driven prompting?",
+    "answer": "What is config-driven prompting addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 384,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is prompt registry?",
+    "answer": "What is prompt registry addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 385,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is model registry?",
+    "answer": "What is model registry addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 386,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is experiment tracking?",
+    "answer": "What is experiment tracking addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 387,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is dataset catalog?",
+    "answer": "What is dataset catalog addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 388,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is data lineage?",
+    "answer": "What is data lineage addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 389,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is observability tooling?",
+    "answer": "What is observability tooling addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 390,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is tracing in AI apps?",
+    "answer": "What is tracing in AI apps addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 391,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is token usage monitoring?",
+    "answer": "What is token usage monitoring addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 392,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "How do we estimate and control costs?",
+    "answer": "How do we estimate and control costs addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 393,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "How do we enforce quotas?",
+    "answer": "How do we enforce quotas addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 394,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is structured logging?",
+    "answer": "What is structured logging addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 395,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is PII redaction in logs?",
+    "answer": "What is PII redaction in logs addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 396,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is encryption at rest?",
+    "answer": "What is encryption at rest addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 397,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is encryption in transit?",
+    "answer": "What is encryption in transit addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 398,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is OAuth and do AI apps need it?",
+    "answer": "What is OAuth and do AI apps need it addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 399,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is SSO integration?",
+    "answer": "What is SSO integration addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 400,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is RBAC?",
+    "answer": "What is RBAC addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 401,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is ABAC?",
+    "answer": "What is ABAC addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 402,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is document-level security?",
+    "answer": "What is document-level security addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 403,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "How do we handle multi-tenant RAG?",
+    "answer": "How do we handle multi-tenant RAG addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 404,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "How do we integrate AI into Teams?",
+    "answer": "How do we integrate AI into Teams addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 405,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "How do we integrate AI into SharePoint?",
+    "answer": "How do we integrate AI into SharePoint addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 406,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "How do we integrate AI into Outlook?",
+    "answer": "How do we integrate AI into Outlook addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 407,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "How do we integrate AI into web apps?",
+    "answer": "How do we integrate AI into web apps addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 408,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "How do we integrate AI into mobile apps?",
+    "answer": "How do we integrate AI into mobile apps addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 409,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is webhook integration?",
+    "answer": "What is webhook integration addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 410,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is event-driven architecture for AI?",
+    "answer": "What is event-driven architecture for AI addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 411,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is queue-based processing for AI?",
+    "answer": "What is queue-based processing for AI addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 412,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is async inference?",
+    "answer": "What is async inference addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 413,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is batch inference?",
+    "answer": "What is batch inference addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 414,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is streaming inference?",
+    "answer": "What is streaming inference addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 415,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is caching strategy for AI responses?",
+    "answer": "What is caching strategy for AI responses addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 416,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is semantic cache?",
+    "answer": "What is semantic cache addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 417,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is response canonicalization?",
+    "answer": "What is response canonicalization addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 418,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "How do we manage prompt secrets?",
+    "answer": "How do we manage prompt secrets addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 419,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "What is sandbox execution for code agents?",
+    "answer": "What is sandbox execution for code agents addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 420,
+    "category": "Tooling & Integration",
+    "intent": "PLATFORM_INTEGRATION",
+    "question": "How do we restrict tool permissions?",
+    "answer": "How do we restrict tool permissions addresses how AI systems integrate with platforms, APIs, security controls, and enterprise tooling.",
+    "keywords": null
+  },
+  {
+    "id": 421,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What are the top security risks in GenAI?",
+    "answer": "What are the top security risks in GenAI is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 422,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is prompt injection and how do we defend?",
+    "answer": "What is prompt injection and how do we defend is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 423,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is data exfiltration risk in RAG?",
+    "answer": "What is data exfiltration risk in RAG is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 424,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we prevent sensitive data leakage?",
+    "answer": "How do we prevent sensitive data leakage is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 425,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we classify data for AI usage?",
+    "answer": "How do we classify data for AI usage is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 426,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is PII detection?",
+    "answer": "What is PII detection is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 427,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we mask PII in prompts?",
+    "answer": "How do we mask PII in prompts is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 428,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we implement DLP for AI systems?",
+    "answer": "How do we implement DLP for AI systems is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 429,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we do access control for enterprise AI?",
+    "answer": "How do we do access control for enterprise AI is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 430,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is least privilege for AI tools?",
+    "answer": "What is least privilege for AI tools is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 431,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we secure vector databases?",
+    "answer": "How do we secure vector databases is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 432,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we secure document stores?",
+    "answer": "How do we secure document stores is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 433,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we secure LLM API keys?",
+    "answer": "How do we secure LLM API keys is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 434,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we rotate secrets?",
+    "answer": "How do we rotate secrets is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 435,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we prevent model abuse?",
+    "answer": "How do we prevent model abuse is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 436,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is content moderation strategy?",
+    "answer": "What is content moderation strategy is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 437,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What are guardrails?",
+    "answer": "What are guardrails is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 438,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What are policy-based guardrails?",
+    "answer": "What are policy-based guardrails is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 439,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What are rule-based guardrails?",
+    "answer": "What are rule-based guardrails is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 440,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What are model-based guardrails?",
+    "answer": "What are model-based guardrails is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 441,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we log safely without leaking data?",
+    "answer": "How do we log safely without leaking data is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 442,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What audit logs are required for AI systems?",
+    "answer": "What audit logs are required for AI systems is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 443,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is retention policy for AI logs?",
+    "answer": "What is retention policy for AI logs is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 444,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is legal hold and how does it affect AI?",
+    "answer": "What is legal hold and how does it affect AI is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 445,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is data residency in AI systems?",
+    "answer": "What is data residency in AI systems is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 446,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is cross-border data transfer risk?",
+    "answer": "What is cross-border data transfer risk is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 447,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we handle GDPR-like requirements?",
+    "answer": "How do we handle GDPR-like requirements is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 448,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we handle consent in AI usage?",
+    "answer": "How do we handle consent in AI usage is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 449,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is IP risk with GenAI?",
+    "answer": "What is IP risk with GenAI is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 450,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "How do we avoid copyrighted output risk?",
+    "answer": "How do we avoid copyrighted output risk is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 451,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is model transparency?",
+    "answer": "What is model transparency is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 452,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is explainability in GenAI?",
+    "answer": "What is explainability in GenAI is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 453,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is model accountability in enterprise?",
+    "answer": "What is model accountability in enterprise is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 454,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is an AI incident and how to respond?",
+    "answer": "What is an AI incident and how to respond is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 455,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is an AI breach?",
+    "answer": "What is an AI breach is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 456,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is a red team test for GenAI?",
+    "answer": "What is a red team test for GenAI is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 457,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is adversarial prompting?",
+    "answer": "What is adversarial prompting is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 458,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is security evaluation for AI vendors?",
+    "answer": "What is security evaluation for AI vendors is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 459,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is third-party risk management for AI?",
+    "answer": "What is third-party risk management for AI is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 460,
+    "category": "Security & Governance",
+    "intent": "AI_GOV_SEC",
+    "question": "What is acceptable use policy enforcement?",
+    "answer": "What is acceptable use policy enforcement is a security or governance concept designed to manage risk, compliance, and responsible use of generative AI in enterprise environments.",
+    "keywords": null
+  },
+  {
+    "id": 461,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we test an LLM application?",
+    "answer": "How do we test an LLM application focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 462,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is offline evaluation?",
+    "answer": "What is offline evaluation focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 463,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is online evaluation?",
+    "answer": "What is online evaluation focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 464,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is golden dataset testing?",
+    "answer": "What is golden dataset testing focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 465,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is a test harness for prompts?",
+    "answer": "What is a test harness for prompts focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 466,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is regression testing for prompts?",
+    "answer": "What is regression testing for prompts focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 467,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we test RAG retrieval?",
+    "answer": "How do we test RAG retrieval focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 468,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we test chunking strategy?",
+    "answer": "How do we test chunking strategy focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 469,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we test embedding models?",
+    "answer": "How do we test embedding models focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 470,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we test reranking effectiveness?",
+    "answer": "How do we test reranking effectiveness focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 471,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is faithfulness testing?",
+    "answer": "What is faithfulness testing focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 472,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is groundedness testing?",
+    "answer": "What is groundedness testing focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 473,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is toxicity testing?",
+    "answer": "What is toxicity testing focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 474,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is jailbreak robustness testing?",
+    "answer": "What is jailbreak robustness testing focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 475,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is latency testing for AI apps?",
+    "answer": "What is latency testing for AI apps focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 476,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we load test AI endpoints?",
+    "answer": "How do we load test AI endpoints focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 477,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is cost regression testing?",
+    "answer": "What is cost regression testing focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 478,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is quality vs cost tradeoff testing?",
+    "answer": "What is quality vs cost tradeoff testing focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 479,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is monitoring for hallucinations?",
+    "answer": "What is monitoring for hallucinations focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 480,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is monitoring for prompt injection attempts?",
+    "answer": "What is monitoring for prompt injection attempts focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 481,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is drift detection in RAG systems?",
+    "answer": "What is drift detection in RAG systems focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 482,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is drift detection in prompts?",
+    "answer": "What is drift detection in prompts focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 483,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we monitor knowledge base freshness?",
+    "answer": "How do we monitor knowledge base freshness focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 484,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we monitor tool failures in agents?",
+    "answer": "How do we monitor tool failures in agents focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 485,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What are SLAs for AI systems?",
+    "answer": "What are SLAs for AI systems focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 486,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is an SLO for AI systems?",
+    "answer": "What is an SLO for AI systems focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 487,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is error budget for AI systems?",
+    "answer": "What is error budget for AI systems focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 488,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is incident response for AI?",
+    "answer": "What is incident response for AI focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 489,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is post-incident review for AI systems?",
+    "answer": "What is post-incident review for AI systems focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 490,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is fallback strategy when the model fails?",
+    "answer": "What is fallback strategy when the model fails focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 491,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is fallback when retrieval fails?",
+    "answer": "What is fallback when retrieval fails focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 492,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is fallback when tools fail?",
+    "answer": "What is fallback when tools fail focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 493,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we handle partial answers safely?",
+    "answer": "How do we handle partial answers safely focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 494,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we handle “I don’t know” behavior?",
+    "answer": "How do we handle “I don’t know” behavior focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 495,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we calibrate confidence in answers?",
+    "answer": "How do we calibrate confidence in answers focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 496,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we present citations properly?",
+    "answer": "How do we present citations properly focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 497,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we collect user feedback in AI apps?",
+    "answer": "How do we collect user feedback in AI apps focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 498,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we incorporate feedback into improvements?",
+    "answer": "How do we incorporate feedback into improvements focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 499,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "How do we manage version upgrades of models safely?",
+    "answer": "How do we manage version upgrades of models safely focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 500,
+    "category": "Testing & Operations",
+    "intent": "AI_TEST_OPS",
+    "question": "What is the production checklist for AI enablement?",
+    "answer": "What is the production checklist for AI enablement focuses on testing, monitoring, and operating AI systems reliably in production environments.",
+    "keywords": null
+  },
+  {
+    "id": 501,
+    "category": "Greetings",
+    "intent": "Greetings",
+    "question": "Hi",
+    "answer": "Hello",
+    "keywords": null
+  },
+  {
+    "id": 502,
+    "category": "Greetings",
+    "intent": "Greetings",
+    "question": "Hello",
+    "answer": "Hi",
+    "keywords": null
+  },
+  {
+    "id": 503,
+    "category": "Greetings",
+    "intent": "Greetings",
+    "question": "Morning",
+    "answer": "Good Morning",
+    "keywords": null
+  },
+  {
+    "id": 504,
+    "category": "Greetings",
+    "intent": "Greetings",
+    "question": "What is your name",
+    "answer": "I am your Ai Assistant, I dont have any name",
+    "keywords": null
+  }
+]

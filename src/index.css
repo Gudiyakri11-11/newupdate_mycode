@@ -1,0 +1,445 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* =========================================
+   MARQUEE (Used by PPT Generator banner ticker)
+========================================= */
+.marquee-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.marquee-text {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation: marquee-scroll 18s linear infinite;
+}
+
+.marquee-wrapper:hover .marquee-text {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* =========================================
+   USED BY EFFORT FORM (Required for this component)
+========================================= */
+
+/* Dark mode fix for date input calendar icon */
+.dark input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* Optional: keep icon visible in light mode */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  body::before {
+    opacity: 0.03;
+  }
+}
+
+/* Custom Checkbox/Radio Pill Styling for modern UI */
+.custom-pill-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-pill-input:checked + .custom-pill-bg {
+  background-color: #3b82f6; /* Blue-500 */
+  color: white;
+  border-color: #3b82f6;
+  box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.3);
+}
+
+.dark .custom-pill-input:checked + .custom-pill-bg {
+  background-color: #2563eb; /* Blue-600 */
+  border-color: #2563eb;
+  color: white;
+}
+
+/* Glassmorphism subtle effects for sections 
+   (Safe to keep since moving elements behind it have been removed) */
+.glass-panel {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Smooth page load animation (Safe: Runs once and stops) */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.effort-form-container {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+.animation-fadeIn {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Hide scrollbar for the horizontal calendar strip */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Customizing general scrollbar for text inputs and the container */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+
+/* =========================================
+   OTHER AI THEME / GLOBAL STYLES (Optimized for Performance)
+========================================= */
+
+/* Static box-shadow fallback instead of expensive pulsing animation */
+.dark .group {
+  box-shadow: 0 0 15px -5px rgba(6, 182, 212, 0.1);
+}
+
+.dark .group:hover {
+  /* Let the tailwind shadow take over on hover */
+}
+
+/* Static Cyber Grid Background (Animation removed) */
+.bg-cyber-grid {
+  background-size: 50px 50px;
+  background-image: 
+    linear-gradient(to right, rgba(59, 130, 246, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(59, 130, 246, 0.08) 1px, transparent 1px);
+  mask-image: radial-gradient(ellipse at 50% 30%, black 20%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse at 50% 30%, black 20%, transparent 80%);
+}
+
+.dark .bg-cyber-grid {
+  background-image: 
+    linear-gradient(to right, rgba(6, 182, 212, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(6, 182, 212, 0.08) 1px, transparent 1px);
+}
+
+/* Glowing laser border at the bottom of the nav */
+.cyber-nav-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.2), rgba(59, 130, 246, 0.8), rgba(59, 130, 246, 0.2), transparent);
+  z-index: 10;
+}
+
+.dark .cyber-nav-border {
+  background: linear-gradient(90deg, transparent, rgba(6, 182, 212, 0.2), rgba(6, 182, 212, 0.8), rgba(168, 85, 247, 0.5), transparent);
+  box-shadow: 0 1px 10px rgba(6, 182, 212, 0.4);
+}
+
+/* Custom minimal styling for the Role Switcher Dropdown */
+.cyber-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.cyber-select option {
+  background-color: #ffffff;
+  color: #111827;
+}
+
+.dark .cyber-select option {
+  background-color: #030712;
+  color: #e5e7eb;
+}
+
+/* Static fallback for glitch text */
+.dark .lost-text-glitch {
+  opacity: 0.8;
+  text-shadow: 2px 0 rgba(255,0,0,0.5), -2px 0 rgba(0,0,255,0.5);
+}
+
+/* Static Gradient Background (Animation removed) */
+.ai-bg-animated {
+  background: linear-gradient(-45deg, #e0e7ff, #c7d2fe, #f5f3ff, #ffffff);
+}
+
+@media (prefers-color-scheme: dark) {
+  .ai-bg-animated {
+    background: linear-gradient(-45deg, #020617, #0f172a, #1e1b4b, #000000);
+  }
+}
+
+.dark .ai-bg-animated {
+  background: linear-gradient(-45deg, #020617, #0f172a, #1e1b4b, #000000);
+}
+
+/* Static Floating AI Orbs (Animation removed, blur kept for visual style) */
+.ai-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: 0;
+  opacity: 0.6;
+}
+
+.ai-orb-1 {
+  width: 300px;
+  height: 300px;
+  background: #6366f1; /* Indigo */
+  top: -10%;
+  left: -10%;
+}
+
+.ai-orb-2 {
+  width: 250px;
+  height: 250px;
+  background: #06b6d4; /* Cyan */
+  bottom: -10%;
+  right: -5%;
+}
+
+.dark .ai-orb-1 { background: #4f46e5; opacity: 0.3; }
+.dark .ai-orb-2 { background: #0891b2; opacity: 0.3; }
+
+/* Static Gradient Text (Animation removed) */
+.text-shimmer {
+  background: linear-gradient(90deg, #6366f1 0%, #a855f7 50%, #06b6d4 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.dark .text-shimmer {
+  background: linear-gradient(90deg, #818cf8 0%, #c084fc 50%, #22d3ee 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Birthday celebration popup */
+.birthday-pop {
+  animation: birthday-pop-in 0.42s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.birthday-confetti-layer,
+.birthday-balloon-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.birthday-confetti {
+  position: absolute;
+  top: -20px;
+  width: 9px;
+  height: 16px;
+  border-radius: 2px;
+  opacity: 0.9;
+  animation: birthday-confetti-fall 3.8s linear infinite;
+}
+
+.birthday-confetti-0 { background: #f43f5e; }
+.birthday-confetti-1 { background: #f59e0b; }
+.birthday-confetti-2 { background: #22c55e; }
+.birthday-confetti-3 { background: #06b6d4; }
+.birthday-confetti-4 { background: #8b5cf6; }
+.birthday-confetti-5 { background: #ec4899; }
+.birthday-confetti-6 { background: #facc15; }
+
+.birthday-confetti:nth-child(1) { left: 4%; animation-delay: -0.2s; }
+.birthday-confetti:nth-child(2) { left: 9%; animation-delay: -1.1s; }
+.birthday-confetti:nth-child(3) { left: 14%; animation-delay: -2.4s; }
+.birthday-confetti:nth-child(4) { left: 19%; animation-delay: -0.7s; }
+.birthday-confetti:nth-child(5) { left: 25%; animation-delay: -1.8s; }
+.birthday-confetti:nth-child(6) { left: 31%; animation-delay: -2.9s; }
+.birthday-confetti:nth-child(7) { left: 37%; animation-delay: -0.4s; }
+.birthday-confetti:nth-child(8) { left: 43%; animation-delay: -1.5s; }
+.birthday-confetti:nth-child(9) { left: 48%; animation-delay: -2.2s; }
+.birthday-confetti:nth-child(10) { left: 54%; animation-delay: -0.9s; }
+.birthday-confetti:nth-child(11) { left: 60%; animation-delay: -1.9s; }
+.birthday-confetti:nth-child(12) { left: 66%; animation-delay: -3.1s; }
+.birthday-confetti:nth-child(13) { left: 72%; animation-delay: -0.5s; }
+.birthday-confetti:nth-child(14) { left: 78%; animation-delay: -1.4s; }
+.birthday-confetti:nth-child(15) { left: 84%; animation-delay: -2.6s; }
+.birthday-confetti:nth-child(16) { left: 90%; animation-delay: -0.8s; }
+.birthday-confetti:nth-child(17) { left: 96%; animation-delay: -2s; }
+.birthday-confetti:nth-child(18) { left: 6%; animation-delay: -3.2s; }
+.birthday-confetti:nth-child(19) { left: 16%; animation-delay: -1.7s; }
+.birthday-confetti:nth-child(20) { left: 27%; animation-delay: -0.1s; }
+.birthday-confetti:nth-child(21) { left: 39%; animation-delay: -2.7s; }
+.birthday-confetti:nth-child(22) { left: 51%; animation-delay: -1.2s; }
+.birthday-confetti:nth-child(23) { left: 63%; animation-delay: -3.4s; }
+.birthday-confetti:nth-child(24) { left: 75%; animation-delay: -0.6s; }
+.birthday-confetti:nth-child(25) { left: 87%; animation-delay: -2.1s; }
+.birthday-confetti:nth-child(26) { left: 93%; animation-delay: -1.3s; }
+.birthday-confetti:nth-child(27) { left: 35%; animation-delay: -3s; }
+.birthday-confetti:nth-child(28) { left: 58%; animation-delay: -0.3s; }
+
+.birthday-balloon {
+  position: absolute;
+  width: 42px;
+  height: 54px;
+  border-radius: 50% 50% 46% 46%;
+  background: radial-gradient(circle at 32% 25%, rgba(255, 255, 255, 0.9), transparent 18%),
+    linear-gradient(145deg, #fb7185, #db2777);
+  box-shadow: inset -8px -10px 18px rgba(88, 28, 135, 0.25);
+  opacity: 0.9;
+}
+
+.birthday-balloon::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  width: 10px;
+  height: 10px;
+  transform: translateX(-50%) rotate(45deg);
+  background: inherit;
+}
+
+.birthday-balloon::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -72px;
+  width: 1px;
+  height: 68px;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.birthday-balloon-left {
+  left: -70px;
+  bottom: 12%;
+  animation: birthday-float-left 6.8s ease-in-out infinite;
+}
+
+.birthday-balloon-right {
+  right: -70px;
+  bottom: 18%;
+  background: radial-gradient(circle at 32% 25%, rgba(255, 255, 255, 0.9), transparent 18%),
+    linear-gradient(145deg, #38bdf8, #2563eb);
+  animation: birthday-float-right 7.2s ease-in-out infinite;
+}
+
+.birthday-balloon-bottom {
+  bottom: -90px;
+  left: 50%;
+  background: radial-gradient(circle at 32% 25%, rgba(255, 255, 255, 0.9), transparent 18%),
+    linear-gradient(145deg, #fbbf24, #f97316);
+  animation: birthday-float-bottom 7.6s ease-in-out infinite;
+}
+
+.birthday-balloon:nth-child(1) { animation-delay: -0.4s; transform: scale(0.92); }
+.birthday-balloon:nth-child(2) { animation-delay: -1.2s; transform: scale(1.08); }
+.birthday-balloon:nth-child(3) { animation-delay: -2s; margin-left: -260px; }
+.birthday-balloon:nth-child(4) { animation-delay: -2.7s; bottom: 28%; }
+.birthday-balloon:nth-child(5) { animation-delay: -3.5s; bottom: 36%; }
+.birthday-balloon:nth-child(6) { animation-delay: -4.1s; margin-left: 230px; }
+.birthday-balloon:nth-child(7) { animation-delay: -4.8s; bottom: 7%; }
+.birthday-balloon:nth-child(8) { animation-delay: -5.4s; bottom: 42%; }
+.birthday-balloon:nth-child(9) { animation-delay: -6s; margin-left: -80px; }
+.birthday-balloon:nth-child(10) { animation-delay: -1.7s; bottom: 52%; }
+.birthday-balloon:nth-child(11) { animation-delay: -3.1s; bottom: 6%; }
+.birthday-balloon:nth-child(12) { animation-delay: -5.8s; margin-left: 90px; }
+
+@keyframes birthday-pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes birthday-confetti-fall {
+  0% {
+    transform: translate3d(0, -20px, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate3d(24px, 110vh, 0) rotate(540deg);
+  }
+}
+
+@keyframes birthday-float-left {
+  0% {
+    transform: translate3d(0, 40px, 0) rotate(-8deg);
+  }
+  50% {
+    transform: translate3d(36vw, -38px, 0) rotate(7deg);
+  }
+  100% {
+    transform: translate3d(78vw, -130px, 0) rotate(-6deg);
+  }
+}
+
+@keyframes birthday-float-right {
+  0% {
+    transform: translate3d(0, 30px, 0) rotate(8deg);
+  }
+  50% {
+    transform: translate3d(-34vw, -48px, 0) rotate(-7deg);
+  }
+  100% {
+    transform: translate3d(-78vw, -140px, 0) rotate(6deg);
+  }
+}
+
+@keyframes birthday-float-bottom {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(-4deg);
+  }
+  50% {
+    transform: translate3d(28px, -46vh, 0) rotate(5deg);
+  }
+  100% {
+    transform: translate3d(-18px, -105vh, 0) rotate(-5deg);
+  }
+}

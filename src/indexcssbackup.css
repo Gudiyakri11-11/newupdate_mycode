@@ -1,0 +1,288 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* =========================================
+   USED BY EFFORT FORM (Required for this component)
+========================================= */
+
+/* Dark mode fix for date input calendar icon */
+.dark input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* Optional: keep icon visible in light mode */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  body::before {
+    opacity: 0.03;
+  }
+}
+
+/* Custom Checkbox/Radio Pill Styling for modern UI */
+.custom-pill-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-pill-input:checked + .custom-pill-bg {
+  background-color: #3b82f6; /* Blue-500 */
+  color: white;
+  border-color: #3b82f6;
+  box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.3);
+}
+
+.dark .custom-pill-input:checked + .custom-pill-bg {
+  background-color: #2563eb; /* Blue-600 */
+  border-color: #2563eb;
+  color: white;
+}
+
+/* Glassmorphism subtle effects for sections */
+.glass-panel {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Smooth page load animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.effort-form-container {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+.animation-fadeIn {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Hide scrollbar for the horizontal calendar strip */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Customizing general scrollbar for text inputs and the container */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+
+/* =========================================
+   OTHER AI THEME / GLOBAL STYLES (Not used in this form)
+========================================= */
+
+/* Add a slow pulse to the dark mode backdrop for that "idle AI" feel */
+@keyframes ai-pulse {
+  0%, 100% {
+    box-shadow: 0 0 15px -5px rgba(6, 182, 212, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 20px 2px rgba(6, 182, 212, 0.2);
+  }
+}
+
+.dark .group:hover {
+  animation: none; /* Let the tailwind shadow take over on hover */
+}
+
+/* Optional: apply to the card wrapper for idle state */
+.dark .group {
+  animation: ai-pulse 4s ease-in-out infinite;
+}
+
+/* Moving Cyber Grid Background */
+.bg-cyber-grid {
+  background-size: 50px 50px;
+  background-image: 
+    linear-gradient(to right, rgba(59, 130, 246, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(59, 130, 246, 0.08) 1px, transparent 1px);
+  mask-image: radial-gradient(ellipse at 50% 30%, black 20%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse at 50% 30%, black 20%, transparent 80%);
+}
+
+.dark .bg-cyber-grid {
+  background-image: 
+    linear-gradient(to right, rgba(6, 182, 212, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(6, 182, 212, 0.08) 1px, transparent 1px);
+}
+
+@keyframes pan-grid {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(50px); }
+}
+
+.animate-pan-grid {
+  animation: pan-grid 3s linear infinite;
+}
+
+/* Glowing laser border at the bottom of the nav */
+.cyber-nav-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.2), rgba(59, 130, 246, 0.8), rgba(59, 130, 246, 0.2), transparent);
+  z-index: 10;
+}
+
+.dark .cyber-nav-border {
+  background: linear-gradient(90deg, transparent, rgba(6, 182, 212, 0.2), rgba(6, 182, 212, 0.8), rgba(168, 85, 247, 0.5), transparent);
+  box-shadow: 0 1px 10px rgba(6, 182, 212, 0.4);
+}
+
+/* Custom minimal styling for the Role Switcher Dropdown */
+.cyber-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+.cyber-select option {
+  background-color: #ffffff;
+  color: #111827;
+}
+
+.dark .cyber-select option {
+  background-color: #030712;
+  color: #e5e7eb;
+}
+
+@keyframes glitch {
+  0% { text-shadow: 2px 0 red, -2px 0 blue; }
+  25% { text-shadow: -2px 0 red, 2px 0 blue; }
+  50% { text-shadow: 2px -2px red, -2px 2px blue; }
+  75% { text-shadow: -2px 2px red, 2px -2px blue; }
+  100% { text-shadow: 2px 0 red, -2px 0 blue; }
+}
+
+.dark .lost-text-glitch {
+  animation: glitch 1s linear infinite;
+  opacity: 0.8;
+}
+
+/* Animated Gradient Background */
+.ai-bg-animated {
+  background: linear-gradient(-45deg, #e0e7ff, #c7d2fe, #f5f3ff, #ffffff);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+  .ai-bg-animated {
+    background: linear-gradient(-45deg, #020617, #0f172a, #1e1b4b, #000000);
+  }
+}
+
+.dark .ai-bg-animated {
+  background: linear-gradient(-45deg, #020617, #0f172a, #1e1b4b, #000000);
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Floating AI Orbs */
+.ai-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: 0;
+  opacity: 0.6;
+  animation: float 10s ease-in-out infinite;
+}
+
+.ai-orb-1 {
+  width: 300px;
+  height: 300px;
+  background: #6366f1; /* Indigo */
+  top: -10%;
+  left: -10%;
+  animation-delay: 0s;
+}
+
+.ai-orb-2 {
+  width: 250px;
+  height: 250px;
+  background: #06b6d4; /* Cyan */
+  bottom: -10%;
+  right: -5%;
+  animation-delay: -5s;
+}
+
+.dark .ai-orb-1 { background: #4f46e5; opacity: 0.3; }
+.dark .ai-orb-2 { background: #0891b2; opacity: 0.3; }
+
+@keyframes float {
+  0% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-30px) scale(1.1); }
+  100% { transform: translateY(0px) scale(1); }
+}
+
+/* Animated Shimmer Text */
+.text-shimmer {
+  background: linear-gradient(
+    90deg,
+    #6366f1 0%,
+    #a855f7 50%,
+    #06b6d4 100%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+.dark .text-shimmer {
+  background: linear-gradient(
+    90deg,
+    #818cf8 0%,
+    #c084fc 50%,
+    #22d3ee 100%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}

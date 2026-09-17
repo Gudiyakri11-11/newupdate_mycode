@@ -1,0 +1,128 @@
+{
+  "1": [
+    {
+      "question": "What is an insurance 'premium'?",
+      "options": [
+        "The maximum amount an insurer will pay for a claim",
+        "The specified amount of payment required periodically by an insurer to provide coverage",
+        "The out-of-pocket cost paid by the insured before the insurance pays",
+        "A bonus paid to the policyholder for not making claims"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "question": "In the insurance industry, what does 'underwriting' refer to?",
+      "options": [
+        "The process of evaluating the risk of insuring a potential customer",
+        "Writing the final signature on an insurance claim",
+        "The marketing strategy used to sell life insurance",
+        "Refunding a canceled insurance policy"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "What is a 'deductible'?",
+      "options": [
+        "A tax benefit given to all policyholders",
+        "The monthly fee paid to the insurance broker",
+        "The amount you pay out of pocket before your insurance starts paying",
+        "A legal document that cancels an insurance policy"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "question": "Which of the following best describes 'claims processing'?",
+      "options": [
+        "Selling a new policy to a customer",
+        "Verifying a policyholder's request for compensation and issuing payment",
+        "Calculating the annual revenue of the insurance company",
+        "Filing physical paperwork in the company archives"
+      ],
+      "correctOptionIndex": 1
+    }
+  ],
+  "2": [
+    {
+      "question": "Which of the following is a core principle of Object-Oriented Programming (OOP)?",
+      "options": [
+        "Compilation",
+        "Encapsulation",
+        "Minification",
+        "Transpilation"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "question": "What does API stand for?",
+      "options": [
+        "Application Programming Interface",
+        "Advanced Program Integration",
+        "Application Process Instance",
+        "Automated Programming Interface"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "In the MVC architectural pattern, what is the role of the 'Controller'?",
+      "options": [
+        "To manage the database schema directly",
+        "To define the visual structure of the web page",
+        "To handle user input and update the model and the view accordingly",
+        "To secure the application from cyber attacks"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "question": "Which tool is standard for source code version control?",
+      "options": [
+        "Docker",
+        "Git",
+        "Jenkins",
+        "Kubernetes"
+      ],
+      "correctOptionIndex": 1
+    }
+  ],
+  "3": [
+    {
+      "question": "What does 'LLM' stand for in the context of Generative AI?",
+      "options": [
+        "Low-Latency Memory",
+        "Logical Language Module",
+        "Large Language Model",
+        "Linear Learning Mechanism"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "question": "In GenAI, what is a 'Hallucination'?",
+      "options": [
+        "When the AI perfectly generates a requested image",
+        "When the AI generates confident but factually incorrect or nonsensical information",
+        "A specific visual effect applied to AI-generated videos",
+        "When the AI crashes due to memory overload"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "question": "What is 'Prompt Engineering'?",
+      "options": [
+        "Writing backend server code quickly",
+        "Designing the physical hardware for AI chips",
+        "Crafting inputs to an AI model to elicit the best possible response",
+        "Fixing bugs in the prompt terminal of an OS"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "question": "How does GitHub Copilot primarily assist developers?",
+      "options": [
+        "By hosting websites automatically",
+        "By acting as an AI pair programmer offering autocomplete-style code suggestions",
+        "By replacing the need for a database",
+        "By designing UI/UX wireframes"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

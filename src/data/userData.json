@@ -1,0 +1,26 @@
+[
+  {
+    "employeeId": "275715",
+    "name": "Anand",
+    "password": "Welcome",
+    "role": "moderator"
+  },
+  {
+    "employeeId": "2403957",
+    "name": "Abir",
+    "password": "Welcome",
+    "role": "admin"
+  },
+   {
+    "employeeId": "2439011",
+    "name": "Sukh",
+    "password": "Welcome",
+    "role": "user"
+  },
+  {
+    "employeeId": "1234",
+    "name": "jhon",
+    "password": "Welcome",
+    "role": "user"
+  }
+]
