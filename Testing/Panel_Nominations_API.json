@@ -1,0 +1,253 @@
+{
+	"info": {
+		"_postman_id": "a9b8c7d6-e5f4-3210-b456-789012345678",
+		"name": "Panel & Nominations API",
+		"description": "API endpoints for Interview Panel Nominations, Slot Bookings, and Reservations.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. GET Employee Profile Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/employee/2403957",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"employee",
+						"2403957"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. POST Create New Nomination",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"grade\": \"SA\",\n  \"location\": \"Mumbai\",\n  \"parentCustomer\": \"Global Bank Corp\",\n  \"contactNo\": \"+91-9876543210\",\n  \"interviewSkills\": [\"React.js\", \"Node.js\", \"SQL Server\"],\n  \"bookedSlots\": [\n    {\n      \"date\": \"2026-06-12\",\n      \"time\": \"10:00 AM - 11:00 AM\"\n    },\n    {\n      \"date\": \"2026-06-13\",\n      \"time\": \"02:00 PM - 03:00 PM\"\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/nomination",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"nomination"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. POST Update Existing Nomination",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"nominationId\": 1,\n  \"grade\": \"SA\",\n  \"location\": \"Mumbai\",\n  \"parentCustomer\": \"Global Bank Corp\",\n  \"contactNo\": \"+91-9876543210\",\n  \"interviewSkills\": [\"React.js\", \"Node.js\", \"SQL Server\", \"AWS\"],\n  \"bookedSlots\": [\n    {\n      \"date\": \"2026-06-12\",\n      \"time\": \"10:00 AM - 11:00 AM\"\n    },\n    {\n      \"date\": \"2026-06-15\",\n      \"time\": \"04:00 PM - 05:00 PM\"\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/nomination",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"nomination"
+					],
+					"description": "Updates Nomination ID 1. Tests the T+2 rule by dropping the June 13th slot and adding a June 15th slot."
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. GET Nominations by Employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/nominations/2403957",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"nominations",
+						"2403957"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5. GET Admin - All Nominations Master Feed",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/admin/nominations",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"admin",
+						"nominations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6. GET Admin - Audit Trail for Employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/admin/audit/2403957",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"admin",
+						"audit",
+						"2403957"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7. GET Admin - Slot Bookings & Reservations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/admin/slot-bookings",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"admin",
+						"slot-bookings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "8. POST Admin - Reserve a Slot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"nominationId\": 1,\n  \"targetEmployeeId\": \"2403957\",\n  \"date\": \"2026-06-12\",\n  \"time\": \"10:00 AM - 11:00 AM\",\n  \"taggedCandidates\": \"John Doe (ID: 5543), Jane Smith (ID: 9982)\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/admin/reserve",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"admin",
+						"reserve"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "9. POST Admin - Release a Slot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"reservationId\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/admin/release",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"admin",
+						"release"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.request.headers.add({key: 'Accept', value: 'application/json, text/plain, */*'});",
+					"pm.request.headers.add({key: 'Accept-Encoding', value: 'gzip, deflate, br, zstd'});",
+					"pm.request.headers.add({key: 'Accept-Language', value: 'en-US,en;q=0.9,en-IN;q=0.8'});",
+					"pm.request.headers.add({key: 'Connection', value: 'keep-alive'});",
+					"pm.request.headers.add({key: 'Cookie', value: pm.collectionVariables.get('cookieStr')});",
+					"pm.request.headers.add({key: 'Origin', value: 'http://localhost:5173'});",
+					"pm.request.headers.add({key: 'Referer', value: 'http://localhost:5173/'});",
+					"pm.request.headers.add({key: 'User-Agent', value: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0'});",
+					"pm.request.headers.add({key: 'x-csrf-token', value: pm.collectionVariables.get('csrfToken')});"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:3030/api/panel",
+			"type": "string"
+		},
+		{
+			"key": "csrfToken",
+			"value": "UKWkcxYy-PP8yiTohgARU9B6KAjL3nkp5vUo",
+			"type": "string"
+		},
+		{
+			"key": "cookieStr",
+			"value": "_csrf=0LxoxZY4nBCsETrA1b4HV0Hh; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZUlkIjoiMjQwMzk1NyIsIm5hbWUiOiJTSyBBYmlyIEFobWVkIiwicmVhbFJvbGUiOiJhZG1pbiIsImFjdGl2ZVJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwOTMyNTMxLCJleHAiOjE3ODA5NjEzMzF9.CAu-I39ZAHbR7xcPWS4bThlUapFdBDKV0gSJyv7hIxo",
+			"type": "string"
+		}
+	]
+}

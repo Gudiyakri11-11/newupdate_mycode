@@ -1,0 +1,274 @@
+{
+	"info": {
+		"_postman_id": "d1c34567-e89b-12d3-a456-426614174000",
+		"name": "AI Effort Tracker API",
+		"description": "API endpoints for the Effort Tracker application including creation, validation, aggregation, and reporting.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. GET Stages & Activities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/stages-activities",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"stages-activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. POST Create Daily Log (Work with GenAI)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"date\": \"2026-06-08\",\n  \"start_time\": \"2026-06-08T09:30:00.000Z\",\n  \"is_on_leave\": \"No\",\n  \"stage\": \"Code & Build\",\n  \"code_build_activity\": \"Code Generation\",\n  \"using_genai_tools\": \"Yes\",\n  \"has_ghcp_license\": \"Yes\",\n  \"selected_genai_tools\": [\"GHCP Licence\", \"Other Tool\"],\n  \"specify_other_tool\": \"Claude 3.5 Sonnet\",\n  \"items_without_genai_tools\": 5,\n  \"hours_without_genai_tools\": 6.5,\n  \"items_with_genai_tools\": 3,\n  \"hours_with_genai_tools\": 4.0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. POST Create Daily Log (Leave)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"date\": \"2026-06-07\",\n  \"start_time\": \"2026-06-07T09:00:00.000Z\",\n  \"is_on_leave\": \"Yes\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. PUT Update Daily Log",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"date\": \"2026-06-08\",\n  \"is_on_leave\": \"No\",\n  \"stage\": \"Code & Build\",\n  \"code_build_activity\": \"Code Refactoring\",\n  \"using_genai_tools\": \"Yes\",\n  \"has_ghcp_license\": \"Yes\",\n  \"selected_genai_tools\": [\"Copilot Assist M365\"],\n  \"specify_other_tool\": null,\n  \"items_without_genai_tools\": 4,\n  \"hours_without_genai_tools\": 5.0,\n  \"items_with_genai_tools\": 4,\n  \"hours_with_genai_tools\": 2.5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"1"
+					],
+					"description": "Change '1' in the URL to the actual gauge_id returned from the POST request."
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5. GET Records (By Employee & Date)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/?date=2026-06-08&employeeId=2403957",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2026-06-08"
+						},
+						{
+							"key": "employeeId",
+							"value": "2403957"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6. GET All Records (Simple)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/allrecords",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"allrecords"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7. GET All Records (With User Join & Filters)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/all?startDate=2026-06-01&endDate=2026-06-30",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"all"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2026-06-01"
+						},
+						{
+							"key": "endDate",
+							"value": "2026-06-30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "8. POST Fetch Pulse Data (Reporting)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"employeeIds\": [\"2403957\", \"1234567\"],\n  \"startDate\": \"2026-06-01\",\n  \"endDate\": \"2026-06-30\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pulse-data",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pulse-data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "9. POST Fetch Submitted Dates (Defaulters)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"employeeIds\": [\"2403957\", \"1234567\"],\n  \"startDate\": \"2026-06-01\",\n  \"endDate\": \"2026-06-30\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/submitted-dates",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"submitted-dates"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.request.headers.add({key: 'Accept', value: 'application/json, text/plain, */*'});",
+					"pm.request.headers.add({key: 'Accept-Encoding', value: 'gzip, deflate, br, zstd'});",
+					"pm.request.headers.add({key: 'Accept-Language', value: 'en-US,en;q=0.9,en-IN;q=0.8'});",
+					"pm.request.headers.add({key: 'Connection', value: 'keep-alive'});",
+					"pm.request.headers.add({key: 'Cookie', value: pm.collectionVariables.get('cookieStr')});",
+					"pm.request.headers.add({key: 'Origin', value: 'http://localhost:5173'});",
+					"pm.request.headers.add({key: 'Referer', value: 'http://localhost:5173/'});",
+					"pm.request.headers.add({key: 'User-Agent', value: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0'});",
+					"pm.request.headers.add({key: 'x-csrf-token', value: pm.collectionVariables.get('csrfToken')});"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:3030/api/efforts",
+			"type": "string"
+		},
+		{
+			"key": "csrfToken",
+			"value": "UKWkcxYy-PP8yiTohgARU9B6KAjL3nkp5vUo",
+			"type": "string"
+		},
+		{
+			"key": "cookieStr",
+			"value": "_csrf=0LxoxZY4nBCsETrA1b4HV0Hh; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZUlkIjoiMjQwMzk1NyIsIm5hbWUiOiJTSyBBYmlyIEFobWVkIiwicmVhbFJvbGUiOiJhZG1pbiIsImFjdGl2ZVJvbGUiOiJ1c2VyIiwiaWF0IjoxNzgwOTMyNTMxLCJleHAiOjE3ODA5NjEzMzF9.CAu-I39ZAHbR7xcPWS4bThlUapFdBDKV0gSJyv7hIxo",
+			"type": "string"
+		}
+	]
+}
